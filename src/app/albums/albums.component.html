@@ -1,0 +1,11 @@
+<div class="container mt-5 mb-5 text-center float-right">
+    <div class="row">
+        <div class="card mr-3 mb-5 text-center" style="width: 15rem;" *ngFor="let item of _imageList" [title]="item.title">
+            <img [src]="item.url" class="card-img-top" [alt]="item.url">
+            <div class="card-body">
+                <h5 class="card-title">{{item.title}}</h5>
+            </div>
+        </div>
+    
+    </div>
+   </div>
